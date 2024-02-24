@@ -21,7 +21,12 @@ export default function HeroSection() {
 
         <div className="mt-4">
           <Link href={"/courses"}>
-            <Button borderRadius="1.75rem" className="">Explore courses</Button>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              Explore courses
+            </Button>
           </Link>
         </div>
       </div>
